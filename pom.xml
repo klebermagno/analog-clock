@@ -13,14 +13,14 @@
   <url>https://github.com/klebermagno/${project.artifactId}</url>
 
   <scm>
-    <connection>scm:git:git@github.com:jinahya/${project.artifactId}.git</connection>
-    <developerConnection>scm:git:git@github.com:jinahya/${project.artifactId}.git</developerConnection>
-    <url>https://github.com/jinahya/${project.artifactId}</url>
+    <connection>scm:git:git@github.com:klebermagno/${project.artifactId}.git</connection>
+    <developerConnection>scm:git:git@github.com:klebermagno/${project.artifactId}.git</developerConnection>
+    <url>https://github.com/klebermagno/${project.artifactId}</url>
     <tag>HEAD</tag>
   </scm>
   <issueManagement>
     <system>GitHub Issues</system>
-    <url>https://github.com/jinahya/${project.artifactId}/issues</url>
+    <url>https://github.com/klebermagno/${project.artifactId}/issues</url>
   </issueManagement>
 
   <properties>
