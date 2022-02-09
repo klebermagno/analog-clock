@@ -42,7 +42,7 @@ public class AnalogClock extends javax.swing.JFrame {
 
     /**
      * Main method to run the application.
-     * @param args
+     * @param args initial args.
      */
     public static void main(String args[]) {
         new AnalogClock().setVisible(true);

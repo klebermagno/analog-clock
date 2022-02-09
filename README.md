@@ -19,6 +19,16 @@ $ mvn clean package
 $ ls -1 target
 ```
 
+## Generate JavaDocs
+Api docs pah:
+```
+target/site/apidocs/
+```
+Commant to generate javadoc:
+```
+$ mvn javadoc:javadoc
+```
+
 ## To run the application 
 ```
 $ java -jar target/analog-clock-1.0.0-executable.jar
