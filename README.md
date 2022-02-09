@@ -1,9 +1,14 @@
-# executable-jar-with-maven-example
-[![Java CI](https://github.com/jinahya/executable-jar-with-maven-example/workflows/Java%20CI/badge.svg)](https://github.com/jinahya/executable-jar-with-maven-example/actions)
-[![StackOverflow Answer](https://img.shields.io/badge/stackoverflow-answer-blue)](https://stackoverflow.com/a/23986765/330457)
+# Analog Clock
 
-Generates executable jar files with dependencies.
+This project represent a Analog Clock.
 
+## AnalogClock Class
+AnalogClock Class is responsible to create the dial and update the hours.
+This Class extends swing JFrame component.
+## ClockDial Class
+
+ClockDial class is responsible to paint the clock component. This class draw the dial, digital clock and hour, minute and second hands.
+This class extends JPanel to be add in the AnalogClock.
 ## Just build it!
 ```
 $ mvn clean package
@@ -12,4 +17,15 @@ $ mvn clean package
 ## And see what you got!
 ```
 $ ls -1 target
+```
+
+## To run the application 
+```
+$ java -jar target/analog-clock-1.0.0-executable.jar
+```
+
+
+## Total time spend
+```
+2 hours
 ```
